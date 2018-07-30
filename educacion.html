@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="Gabriel Aguiar">
+    <meta name="description" content="Proyecto Final 1">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <head>
+      <h1><img src="img/logo_gae.svg" alt="Logo GA" title="Logo GA" width="100px">Curriculum Vitae</h1>
+    </head>
+    <h2>Datos Personales</h2>
+    <h3>Gabriel Fco. Aguiar Esquinca</h3>
+    <h3>21-08-1991</h3>
+    <h3>Distrito Federal, M&eacute;xico</h3>
+    <nav>
+      <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <h2>Educaci&oacute;n</h2>
+    <table border="1" cellpading="10" cellspacing="0">
+      <thead>
+        <th>Año</th>
+        <th>Instituci&oacute;n</th>
+        <th>Lugar</th>
+        <th>¿Culmin&oacute;?</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2016</td>
+          <td>Universidad Aut&oacute;noma de Chiapas</td>
+          <td>Tuxtla Guti&eacute;rrez, Chiapas, M&eacute;xico</td>
+          <td>Licenciatura en Sistemas Computacionales</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>Grupo Isima</td>
+          <td>M&eacute;rida, Yucat&aacute;n, M&eacute;xico</td>
+          <td>Cheff Profesional</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>CEBETIS 133</td>
+          <td>M&eacute;rida, Yucat&aacute;n, M&eacute;xico</td>
+          <td>Elaboraci&oacute;n de piezas met&aacute;licas en Torno Industrial</td>
+        </tr>
+      </tbody>
+    </table>
+    <form name="educacion">
+      <h1>Agregar Estudios</h1>
+      <label for="anio"> <strong>Año</strong> </label>
+      <select name="anios">
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+      </select>
+      <br>
+      <label for="institucion"> <strong>Instituci&oacute;n</strong></label>
+      <input type="text" name="institucion" id="institucion" placeholder="Ej: UNAM" required>
+      <br>
+      <label for="lugar"> <strong>Lugar</strong> </label>
+      <input type="text" name="lugar" id="lugar" placeholder="Ej: Ciudad de M&eacute;xico" maxlength="500">
+      <br>
+      <br>
+      <input type="submit" name="enviar" value="Enviar">
+    </form>
+  </body>
+  <footer>
+    <p>
+      <strong>Correo Electr&oacute;nico: </strong> <a href="mailto:aguiar0891@gmail.com">aguiar0891@gmail.com</a> |
+      <strong>Tel&eacute;fono: </strong> 961-123-04-84 | <a href="https://www.facebook.com/mantoue" target="_blank"> <strong>Facebook</strong> </a> |
+      <a href="https://twitter.com/Daymon0891" target="_blank"> <strong>Twitter</strong> </a>
+    </p>
+  </footer>
+</html>
